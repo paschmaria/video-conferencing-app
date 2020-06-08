@@ -23,7 +23,7 @@ You can get Python [here](https://www.python.org/downloads/release/python-370/) 
 
 You can install and setup this project locally using the following steps:
 
-Download the app from the Azure Repo
+Download the app from the GitHub Repo
 ```
 $ git clone https://github.com/paschmaria/video-conferencing-app.git
 
@@ -49,12 +49,12 @@ TOK_BOX_API_SECRET=YOUR_OPENTOK_API_SETTINGS
 Next, install the dependencies using [pip](http://www.pip-installer.org/en/latest/), from the
 current directory:
 ```
-$ pip install -r requirements.txt
+(venv) $ pip install -r requirements.txt
 ```
 
 Update DB and run application server
 ```
-$ python manage.py migrate
+(venv) $ python manage.py migrate
 
-$ python manage.py runserver
+(venv) $ python manage.py runserver
 ```
