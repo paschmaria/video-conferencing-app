@@ -31,6 +31,6 @@ def index(request):
                 }
                 return JsonResponse(data)
             else:
-                JsonResponse(form.errors, 400)
+                return JsonResponse(form.errors, 400)
 
     return render(request, 'meeting_app/index.html')
